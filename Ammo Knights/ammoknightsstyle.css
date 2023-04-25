@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: #82ffa5 url(background\ logo.png) no-repeat center fixed
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background: url(Ammo\ Knights\ logo\ mini.png)left no-repeat, url(Ammo\ Knights\ logo\ mini\ 2.png)right no-repeat, url(background\ 2.png);
+}
+
+a:link {
+  color: rgb(4, 61, 11);
+}
+a:visited {
+  color: rgb(7, 78, 0);
+}
+a:focus, a:hover {
+  color: #7eff7e;
+  background-color: #fff;
+}
+a:active {
+  color: rgb(0, 255, 17);
+  background-color: #fff;
+}
+
+h1 {
+  font-family: 'Merriweather';
+  font:bold;
+  text-shadow: .05em .05em .1em rgb(119, 153, 143);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-transform: uppercase;
+    border-bottom: 1px solid #000000;
+    margin-top: 30px;
+
+}
+h2 {
+  font-size: 1em;
+  font-family: 'Merriweather';
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(0, 0, 0)
+}
+h3 {
+    font-size: 1em;
+    font-family: 'Merriweather';
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0)
+  }
+  h4 {
+    font-size: 1em;
+    font-family: 'Merriweather';
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0)
+  }
+  h5 {
+    font-size: 1em;
+    font-family: 'Merriweather';
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0)
+  }
+  h6 {
+    font-size: 1em;
+    font-family: 'Merriweather';
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0)
+  }
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+li {
+  list-style-type:square;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h4 + img {
+  float: right;
+  margin: 0 12px;
+  }
+h5 + img {
+float: left;
+margin: 0 12px;
+}
+h6 + img {
+  float: right;
+  margin: 0 12px;
+  }
+h1 + p {
+    text-align: center;
+    font-style: italic;
+    background: url(background\ 2.png);
+  }
+h2 + p {
+  text-align: center;
+  font-style: italic;
+  background: url(background\ 2.png);
+}
+h3 + p {
+    text-align: center;
+    font-style: italic;
+    background: url(background\ 2.png);
+  }
+h4 + p {
+    background: url(background\ 2.png);
+  }
+  h5 + p {
+    background: url(background\ 2.png);
+  }
+  h6 + p {
+    background: url(background\ 2.png);
+  }
+footer {
+    border-top: 1px solid #000000;
+    background: url(Ammo\ Knights\ logo\ mini.png) top left no-repeat, url(Ammo\ Knights\ logo\ mini\ 2.png) top right no-repeat;
+        text-align: center;
+        padding-top: 1em;
+  }
+  footer img{
+      width: 40px;
+      height: 40px;
+      margin-left: .5em;
+      margin-right: .5em;
+  }
+  p.small{
+    font-size: small;
+  }
+  p.regular {
+    background: url(background\ 2.png);
+  }
